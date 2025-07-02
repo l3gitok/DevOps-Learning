@@ -251,7 +251,7 @@ echo "Vui lòng gõ: sudo reboot"
 5. **Chạy script**: Truyền lệnh `docker swarm join` đầy đủ mà bạn đã sao chép từ Manager Node vào script dưới dạng đối số.
 
    ```bash
-   sudo /tmp/install_docker_worker.sh "docker swarm join --token SWMTKN-1-5qrwi004eppu6o4qokx9prukc695nlx6ssp02az3389u6ly5h5-74ubgpimum971c5t2nvhuof01 192.168.30.153:2377"
+   sudo /tmp/install_docker_worker.sh "docker swarm join --token 
    # Đảm bảo toàn bộ lệnh join nằm trong dấu ngoặc kép " "
    # Thay thế token và IP bằng của bạn
    ```
